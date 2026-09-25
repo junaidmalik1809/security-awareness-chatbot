@@ -1,0 +1,148 @@
+{
+  "greetings": {
+    "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "assalam o alaikum", "salam"],
+    "responses": [
+      "Hello! I'm your Cybersecurity Assistant. Ask me anything about threats, defenses, or core security concepts.",
+      "Hi there! Ready to explore the world of cybersecurity?"
+    ]
+  },
+  "phishing": {
+    "patterns": ["what is phishing", "explain phishing", "phishing meaning", "how does phishing work"],
+    "responses": [
+      "Phishing is a social engineering attack where attackers impersonate trusted entities to steal sensitive information such as credentials, credit card details, or personal data — usually through fake emails, messages, or websites."
+    ]
+  },
+  "malware": {
+    "patterns": ["what is malware", "explain malware", "types of malware"],
+    "responses": [
+      "Malware (Malicious Software) is any software designed to harm, exploit, or gain unauthorized access to systems. Common types include viruses, worms, trojans, ransomware, spyware, adware, and rootkits."
+    ]
+  },
+  "ransomware": {
+    "patterns": ["what is ransomware", "explain ransomware"],
+    "responses": [
+      "Ransomware is a type of malware that encrypts files and demands payment (ransom) to restore access. Modern ransomware often also steals data before encryption (double extortion)."
+    ]
+  },
+  "virus": {
+    "patterns": ["what is a virus", "computer virus", "explain virus"],
+    "responses": [
+      "A computer virus is malware that attaches itself to legitimate files and spreads when those files are executed. It can corrupt data, steal information, or damage the system."
+    ]
+  },
+  "trojan": {
+    "patterns": ["what is a trojan", "trojan horse", "explain trojan"],
+    "responses": [
+      "A Trojan Horse is malware that disguises itself as legitimate software. Once installed, it can create backdoors, steal data, or download additional malware."
+    ]
+  },
+  "worm": {
+    "patterns": ["what is a worm", "computer worm", "explain worm"],
+    "responses": [
+      "A worm is a self-replicating malware that spreads across networks without needing to attach to other files. It can consume bandwidth and deliver payloads."
+    ]
+  },
+  "social_engineering": {
+    "patterns": ["social engineering", "what is social engineering"],
+    "responses": [
+      "Social engineering is the art of manipulating people into giving up confidential information or performing actions that compromise security. Phishing, pretexting, baiting, and tailgating are common techniques."
+    ]
+  },
+  "mfa": {
+    "patterns": ["what is mfa", "multi factor authentication", "2fa", "two factor authentication"],
+    "responses": [
+      "MFA (Multi-Factor Authentication) requires two or more verification factors: something you know (password), something you have (phone/OTP), and/or something you are (biometric)."
+    ]
+  },
+  "password": {
+    "patterns": ["strong password", "password best practices", "how to create strong password"],
+    "responses": [
+      "Use long passphrases (12+ characters), mix uppercase, lowercase, numbers and symbols, never reuse passwords, and preferably use a password manager."
+    ]
+  },
+  "firewall": {
+    "patterns": ["what is firewall", "explain firewall"],
+    "responses": [
+      "A firewall is a network security device or software that monitors and controls incoming and outgoing traffic based on predetermined security rules. It acts as a barrier between trusted and untrusted networks."
+    ]
+  },
+  "ids_ips": {
+    "patterns": ["what is ids", "what is ips", "intrusion detection", "intrusion prevention"],
+    "responses": [
+      "IDS (Intrusion Detection System) monitors network/system activities for malicious behavior and generates alerts. IPS (Intrusion Prevention System) can also take action to block the threats in real time."
+    ]
+  },
+  "siem": {
+    "patterns": ["what is siem", "explain siem", "security information and event management"],
+    "responses": [
+      "SIEM (Security Information and Event Management) collects, analyzes, and correlates logs from different systems to detect threats, generate alerts, and support incident response."
+    ]
+  },
+  "soc": {
+    "patterns": ["what is soc", "security operations center", "what does soc do"],
+    "responses": [
+      "A Security Operations Center (SOC) is a centralized team responsible for continuous monitoring, detection, analysis, and response to cybersecurity threats and incidents."
+    ]
+  },
+  "incident_response": {
+    "patterns": ["incident response", "ir steps", "how to respond to security incident"],
+    "responses": [
+      "Standard Incident Response phases: 1. Preparation 2. Identification 3. Containment 4. Eradication 5. Recovery 6. Lessons Learned."
+    ]
+  },
+  "zero_day": {
+    "patterns": ["zero day", "zero-day", "0day", "what is zero day"],
+    "responses": [
+      "A zero-day vulnerability is a software flaw unknown to the vendor, meaning no official patch exists yet. Attackers can exploit it before a fix is available."
+    ]
+  },
+  "cia_triad": {
+    "patterns": ["cia triad", "what is cia triad", "confidentiality integrity availability"],
+    "responses": [
+      "The CIA Triad is the foundation of information security: Confidentiality (data is only accessible to authorized people), Integrity (data is accurate and unaltered), and Availability (systems and data are accessible when needed)."
+    ]
+  },
+  "encryption": {
+    "patterns": ["what is encryption", "explain encryption"],
+    "responses": [
+      "Encryption is the process of converting readable data (plaintext) into an unreadable format (ciphertext) using an algorithm and key, so only authorized parties can read it."
+    ]
+  },
+  "hashing": {
+    "patterns": ["what is hashing", "explain hashing", "hash function"],
+    "responses": [
+      "Hashing converts data into a fixed-length string (hash). It is one-way (cannot be reversed) and is commonly used for password storage and data integrity checks."
+    ]
+  },
+  "vulnerability": {
+    "patterns": ["what is vulnerability", "explain vulnerability"],
+    "responses": [
+      "A vulnerability is a weakness in a system, application, or process that can be exploited by a threat actor to gain unauthorized access or cause harm."
+    ]
+  },
+  "threat": {
+    "patterns": ["what is a threat", "cyber threat"],
+    "responses": [
+      "A threat is any potential danger that can exploit a vulnerability to cause harm to systems, data, or organizations. Threats can be intentional (attackers) or unintentional (human error, natural disasters)."
+    ]
+  },
+  "risk": {
+    "patterns": ["what is risk", "cyber risk"],
+    "responses": [
+      "Risk is the potential for loss or damage when a threat exploits a vulnerability. It is often calculated as Risk = Threat × Vulnerability × Impact."
+    ]
+  },
+  "bye": {
+    "patterns": ["bye", "goodbye", "exit", "quit", "see you"],
+    "responses": [
+      "Goodbye! Stay safe online.",
+      "Take care! Remember: Think before you click."
+    ]
+  },
+  "default": {
+    "responses": [
+      "I'm not sure about that yet. Try asking about phishing, malware, ransomware, CIA Triad, encryption, hashing, SOC, SIEM, or incident response.",
+      "Sorry, I don't have information on that topic right now. Ask me something related to core cybersecurity concepts."
+    ]
+  }
+}
