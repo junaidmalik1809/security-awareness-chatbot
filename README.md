@@ -34,16 +34,14 @@ Built as a hands-on project to practice modern NLP techniques and create a pract
 
 ## Project Structure
 security-chatbot/
-├── data/
-│   └── knowledge_base.json
-├── src/
-│   └── chatbot.py
+├── data ──> knowledge_base.json
+├── src ──> chatbot.py
 ├── streamlit_app.py
 ├── app.py
 ├── requirements.txt
 └── README.md
 
-
+##
 ---
 
 ## How to Run
@@ -70,3 +68,5 @@ Deploy online
 
 AuthorMuhammad Junaid
 Cybersecurity & IT Support  LinkedIn • GitHub
+###
+##
